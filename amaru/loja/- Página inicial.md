@@ -1,0 +1,26 @@
+- Página inicial
+  - Login
+    - Perfil do usuário
+      - Editar perfil
+      - Meus produtos
+        - Publicar produto
+        - Editar produto
+        - Excluir produto
+      - Meus interesses
+        - Ver interessados
+        - Chat escabador  
+        - Aceitar troca                  
+      - Minhas trocas
+        - Ver detalhes da troca
+        - Confirmar recebimento
+        - Avaliar usuário
+      - Configurações de conta
+        - Alterar senha
+        - Gerenciar endereços
+  - Cadastro
+  - Categoria 1
+  - Categoria 2
+  - Categoria 3  
+  - Categoria 4
+- Pesquisar produtos
+- Ver detalhes do produto

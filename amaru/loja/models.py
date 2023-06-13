@@ -34,7 +34,7 @@ class Categoria(models.Model):
 class Produto(models.Model):
     nome = models.CharField(max_length=200)
     descricao = models.TextField()    
-    preco = models.DecimalField(max_digits=8, decimal_places=2, default=get_default_preco) 
+    preco = models.DecimalField(max_digits=15, decimal_places=2, default=get_default_preco) 
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
     data_publicacao = models.DateTimeField(auto_now_add=True)
     foto = models.ImageField(upload_to='usuario_fotos/', null=True, blank=True)

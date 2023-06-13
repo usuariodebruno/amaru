@@ -11,7 +11,7 @@ def index(request):
     produtos = Produto.objects.all()    
     template = loader.get_template('loja/index.html')
     context = { #VARIAVAEIS QUE VÃO PARA O TEMPLATES
-        'produtos': produtos,
+        'produtos': reversed(produtos),
     }  
     return HttpResponse(template.render(context, request))
 
